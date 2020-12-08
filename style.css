@@ -4,6 +4,9 @@
   
 }
 
+@media {
+  
+}
 body {
   font-family: 'IBM Plex Sans', sans-serif;
   background-color: var(--color-Lav);
@@ -34,5 +37,8 @@ nav ul {
 }
 
 header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
   background-image: https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlobs_Title.svg?v=1607395375106;
 }
