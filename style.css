@@ -10,8 +10,17 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 45px;
 }
+
+h2{
+  font-size: 32px;
+}
+
+h3{
+  font-size: 25px;
+}
+
 a {
   color: black;
 }
@@ -34,6 +43,9 @@ li {
 .call {
   font-style: italic;
   font-size: 18px;
+}
+.image {
+  border-radius: 50%;
 }
 
 header {
