@@ -43,6 +43,7 @@ li {
 .call {
   font-style: italic;
   font-size: 18px;
+  color: black;
 }
 .image1 {
   border-radius: 50%;
@@ -50,7 +51,6 @@ li {
 
 .image {
   border-radius: 50%;
-  position: right;
 }
 header {
   padding-top: 30px;
