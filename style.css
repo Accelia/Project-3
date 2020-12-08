@@ -1,11 +1,16 @@
 :root {
   --color-Lav: #EEE2FE;
   --color-hov: #4D62CD
+  
 }
 
 body {
   font-family: 'IBM Plex Sans', sans-serif;
   background-color: var(--color-Lav);
+}
+
+h1 {
+  font-size: 40px;
 }
 a {
   color: black;
@@ -24,5 +29,10 @@ nav ul {
 }
 
 .call {
-  font-family: 'IBM Plex Sans', italic;
+  font-style: italic;
+  font-size: 18px;
+}
+
+header {
+  background-image: https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlobs_Title.svg?v=1607395375106;
 }
