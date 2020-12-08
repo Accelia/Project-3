@@ -1,16 +1,28 @@
 :root {
   --color-Lav: #EEE2FE;
-  --color-hov: 
+  --color-hov: #4D62CD
 }
 
 body {
   font-family: 'IBM Plex Sans', sans-serif;
   background-color: var(--color-Lav);
 }
-h1 {
-  
-}
-ul {
-  display: inline-block;
+a {
+  color: black;
 }
 
+a:hover {
+  color: var(--color-hov);
+}
+
+nav ul {
+  display: block;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.call {
+  font-family: 'IBM Plex Sans', italic;
+}
