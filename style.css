@@ -62,6 +62,7 @@ li {
 
 .image {
   border-radius: 50%;
+  float: right;
 }
 header {
   padding-top: 30px;
