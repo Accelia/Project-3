@@ -1,9 +1,16 @@
+:root {
+  --color-Lav: #EEE2FE;
+  --color-hov: 
+}
+
 body {
   font-family: 'IBM Plex Sans', sans-serif;
-  background-color: 
+  background-color: var(--color-Lav);
 }
 h1 {
   
 }
-
+ul {
+  display: inline-block;
+}
 
