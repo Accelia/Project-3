@@ -48,6 +48,10 @@ li {
   border-radius: 50%;
 }
 
+.image {
+  border-radius: 50%;
+  position: right;
+}
 header {
   padding-top: 30px;
   padding-bottom: 30px;
