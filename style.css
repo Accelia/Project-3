@@ -23,10 +23,21 @@ h3{
 
 a {
   color: black;
+  background-color: white;
+  border: 1px solid var(--color-hov);
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  transition: all 300ms;
+  padding: 10px;
 }
 
 a:hover {
   color: var(--color-hov);
+  background-color: #EAFCD3;
 }
 
 nav ul {
@@ -60,6 +71,10 @@ header {
   background-size: 500px; 
   background-position: 35% 90%;
   
+}
+
+ a .puchase {
+  background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlob_Button.svg?v=1607395364249);
 }
 
 #speakers {
