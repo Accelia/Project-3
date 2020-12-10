@@ -38,6 +38,7 @@ a {
 a:hover {
   color: var(--color-hov);
   background-color: #EAFCD3;
+  transition: all 300ms;
 }
 
 nav ul {
@@ -56,14 +57,24 @@ li {
   font-size: 18px;
   color: black;
 }
-.image1 {
-  border-radius: 50%;
-}
 
 .image {
   border-radius: 50%;
   float: right;
   padding-top: 10px;
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+.image1 {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+}
+
+
 }
 header {
   padding-top: 30px;
@@ -83,3 +94,11 @@ header {
   padding-left: 0px;
 }
 
+.SpeakersP:hover {
+  background-color: white; 
+  transition: all 300ms;
+}
+
+.Talks {
+  Padding-top: 50px;
+}
