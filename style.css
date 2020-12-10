@@ -4,6 +4,17 @@
   
 }
 
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlobs_Title.svg?v=1607395375106);
+  background-size: 500px; 
+  background-position: 35% 90%;
+  background-repeat: no-repeat;
+  
+}
+
 body {
   font-family: 'IBM Plex Sans', sans-serif;
   background-color: var(--color-Lav);
@@ -74,18 +85,6 @@ li {
   width: 40%;
 }
 
-
-}
-header {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-right: 30px;
-  background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlobs_Title.svg?v=1607395375106);
-  background-size: 500px; 
-  background-position: 35% 90%;
-  background-repeat: no-repeat;
-  
-}
 
 .Speakers{
   background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlobs_Bio.svg?v=1607395369144);
