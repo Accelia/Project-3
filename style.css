@@ -63,6 +63,7 @@ li {
 .image {
   border-radius: 50%;
   float: right;
+  padding-top: 10px;
 }
 header {
   padding-top: 30px;
@@ -71,13 +72,14 @@ header {
   background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlobs_Title.svg?v=1607395375106);
   background-size: 500px; 
   background-position: 35% 90%;
+  background-repeat: no-repeat;
   
 }
 
- a .puchase {
-  background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlob_Button.svg?v=1607395364249);
+.Speakers{
+  background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlobs_Bio.svg?v=1607395369144);
+  background-size: 500px; 
+  background-position: 35% 90%
+  padding-left: 0px;
 }
 
-#speakers {
-  background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlobs_Bio.svg?v=1607395369144);
-}
