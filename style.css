@@ -89,7 +89,8 @@ li {
 .Speakers{
   background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlobs_Bio.svg?v=1607395369144);
   background-size: 500px; 
-  background-position: 35% 90%
+  background-position: 35% 90%;
+  background-repeat: no-repeat;
   padding-left: 0px;
 }
 
@@ -100,4 +101,8 @@ li {
 
 .Talks {
   Padding-top: 50px;
+}
+
+@media (min-width: 700px){
+  body {background-color: red;}
 }
