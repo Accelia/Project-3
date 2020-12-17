@@ -170,4 +170,8 @@ margin-right: auto;
   text-decoration-skip: none;
   text-decoration-color: #51FFFA;
 }
+
+  footer {
+    padding-top: 20px;
+  }
 }
