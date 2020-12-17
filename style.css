@@ -130,7 +130,7 @@ margin-right: auto;
 }
 
 .Speakers p{
-  background-color: white;
+  background-color: hsla(0, 100%, 100%, 65%);
   padding: 12px;
 }
 
@@ -147,9 +147,8 @@ margin-right: auto;
 }
 
 .Talks p {
-  color: black;
   padding: 12px;
-  background-color: white;
+  background-color: hsla(0, 100%, 100%, 65%);
 }
 
 @media (min-width: 700px){
