@@ -1,0 +1,177 @@
+:root {
+  --color-Lav: #EEE2FE;
+  --color-hov: #4D62CD
+  
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlobs_Title.svg?v=1607395375106);
+  background-size: 500px; 
+  background-position: 35% 90%;
+  background-repeat: no-repeat;
+  
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: var(--color-Lav);
+  max-width: 100ch;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2{
+  font-size: 32px;
+}
+
+h3{
+  font-size: 25px;
+  text-decoration: underline wavy;
+  text-decoration-skip: none;
+  text-decoration-color: #FF51F4;
+}
+
+.navigation a {
+  color: black;
+  background-color: white;
+  border: 1px solid var(--color-hov);
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  transition: all 300ms;
+  padding: 10px;
+}
+
+.navigation a:hover {
+  color: var(--color-hov);
+  background-color: #EAFCD3;
+  transition: all 300ms;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+}
+.Purchase {
+  background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlob_Button.svg?v=1607395364249);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  padding: 25px;
+  text-decoration: none;
+  opacity: 0.8;
+  color: black;
+}
+
+.Purchase:hover{
+  opacity: 1;
+  color: var(--color-hov);
+  transition: all 300ms;
+}
+.call {
+  font-style: italic;
+  font-size: 18px;
+  color: black;
+}
+
+.speakerPhoto {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  max-width: 220px;
+  float: left;
+  padding: 10px;
+}
+
+.speakerFloat {
+  float: right;
+  padding-top: 10px;
+}
+
+
+.speakers{
+  background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlobs_Bio.svg?v=1607395369144);
+  background-size: 500px; 
+  background-position: 35% 90%;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+}
+
+.speakers {
+max-width: 100ch;
+margin-right: auto;
+  margin-left: auto;
+}
+
+.speakers p{
+  background-color: hsla(0, 100%, 100%, 65%);
+  padding: 12px;
+}
+
+.talks {
+  Padding-top: 50px;
+  background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlobs_Bio.svg?v=1607395369144);
+  background-size: 500px; 
+  background-position: 35% 90%;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+  max-width: 100ch;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.talks p {
+  padding: 12px;
+  background-color: hsla(0, 100%, 100%, 65%);
+}
+
+@media (min-width: 700px){
+  .speakers {background-size: 75%;}
+  header {background-size: 75%;}
+  .talks {background-size: 75%}
+}
+
+@media (min-width: 1000px) {
+  body { background-color: #EAFCD3; }
+  .navigation a:hover {
+  color: var(--color-hov);
+  background-color: var(--color-Lav);
+  transition: all 300ms;
+  }
+  h3{
+  font-size: 25px;
+  text-decoration: underline wavy;
+  text-decoration-skip: none;
+  text-decoration-color: #51FFFA;
+}
+
+  footer {
+    padding-top: 20px;
+  }
+}
