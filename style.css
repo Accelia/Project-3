@@ -99,7 +99,7 @@ li {
   color: black;
 }
 
-.SpeakerPhoto {
+.speakerPhoto {
   border-radius: 50%;
   display: inline-block;
   vertical-align: top;
@@ -109,13 +109,13 @@ li {
   padding: 10px;
 }
 
-.SpeakerFloat {
+.speakerFloat {
   float: right;
   padding-top: 10px;
 }
 
 
-.Speakers{
+.speakers{
   background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlobs_Bio.svg?v=1607395369144);
   background-size: 500px; 
   background-position: 35% 90%;
@@ -123,18 +123,18 @@ li {
   padding-left: 0px;
 }
 
-.Speakers {
+.speakers {
 max-width: 100ch;
 margin-right: auto;
   margin-left: auto;
 }
 
-.Speakers p{
+.speakers p{
   background-color: hsla(0, 100%, 100%, 65%);
   padding: 12px;
 }
 
-.Talks {
+.talks {
   Padding-top: 50px;
   background-image: url(https://cdn.glitch.com/4a049c3c-7701-4771-9366-0d6fff4d027c%2FBlobs_Bio.svg?v=1607395369144);
   background-size: 500px; 
@@ -146,15 +146,15 @@ margin-right: auto;
   margin-left: auto;
 }
 
-.Talks p {
+.talks p {
   padding: 12px;
   background-color: hsla(0, 100%, 100%, 65%);
 }
 
 @media (min-width: 700px){
-  .Speakers {background-size: 75%;}
+  .speakers {background-size: 75%;}
   header {background-size: 75%;}
-  .Talks {background-size: 75%}
+  .talks {background-size: 75%}
 }
 
 @media (min-width: 1000px) {
